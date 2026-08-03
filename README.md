@@ -1,16 +1,21 @@
-## Hi there 👋
+# Hi, I'm Rüçhan 👋
 
-<!--
-**Ruchanbas/Ruchanbas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Final-year Software Engineering student in Ankara, working toward a **junior Cloud Engineer** role. Currently going deep on **AWS** — preparing for the Solutions Architect Associate (SAA-C03) certification and building serverless projects along the way.
 
-Here are some ideas to get you started:
+## 🛠 Featured projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**[rg-ilan-botu](https://github.com/Ruchanbas/rg-ilan-botu)** — Job-posting alert system that monitors Turkey's Official Gazette (via the ilan.gov.tr API) for specific academic positions and sends notifications. Turkish-aware text normalization, segment-based matching to avoid false positives, config-driven filters, 25 tests with real-document fixtures. Matching engine is complete; serverless AWS deployment (EventBridge + Lambda + DynamoDB + SNS, Terraform) is in progress.
+
+**[tcf-seminer-bot](https://github.com/Ruchanbas/tcf-seminer-bot)** — Zero-infrastructure monitoring bot: a scheduled GitHub Actions job that scrapes the Turkish Gymnastics Federation events page and pushes Telegram alerts for new Pilates seminars. Simple, free, and it just runs.
+
+## 🎯 Currently
+
+- Studying for **AWS SAA-C03**, then AIF-C01
+- Building a **RAG application** as the anchor project of my cloud portfolio
+- Finishing my Software Engineering degree
+
+## Stack
+
+`Python` · `AWS (Lambda, S3, DynamoDB, EventBridge, SNS)` · `Terraform` · `GitHub Actions` · `pytest`
+
+📍 Ankara, Türkiye
