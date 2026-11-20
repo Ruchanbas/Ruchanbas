@@ -1,21 +1,33 @@
-# Hi, I'm Rüçhan 👋
+# Rüçhan Baş
 
-Final-year Software Engineering student in Ankara, working toward a **junior Cloud Engineer** role. Currently going deep on **AWS** — preparing for the Solutions Architect Associate (SAA-C03) certification and building serverless projects along the way.
+Backend developer candidate · Software Engineering student (4th year), OSTİM Technical University, Ankara
 
-## 🛠 Featured projects
+I build backend services and measure them before I make claims about them.
+Right now: Java and PostgreSQL fundamentals. Next: a Spring Boot service with real users.
 
-**[rg-ilan-botu](https://github.com/Ruchanbas/rg-ilan-botu)** — Job-posting alert system that monitors Turkey's Official Gazette (via the ilan.gov.tr API) for specific academic positions and sends notifications. Turkish-aware text normalization, segment-based matching to avoid false positives, config-driven filters, 25 tests with real-document fixtures. Matching engine is complete; serverless AWS deployment (EventBridge + Lambda + DynamoDB + SNS, Terraform) is in progress.
+## Projects
 
-**[tcf-seminer-bot](https://github.com/Ruchanbas/tcf-seminer-bot)** — Zero-infrastructure monitoring bot: a scheduled GitHub Actions job that scrapes the Turkish Gymnastics Federation events page and pushes Telegram alerts for new Pilates seminars. Simple, free, and it just runs.
+**[turkish-pdf-summarizer](https://github.com/Ruchanbas/turkish-pdf-summarizer)**
+Turkish PDF summarization service. I benchmarked four models on 100 articles before choosing one,
+and the benchmark caught a Turkish tokenization bug in the ROUGE evaluator.
+FastAPI, async job queue, AWS serverless (S3 → SQS → Lambda worker), Terraform, CI.
 
-## 🎯 Currently
+**[rg-ilan-botu](https://github.com/Ruchanbas/rg-ilan-botu)** · retired
+Official Gazette job-posting monitor. The source started blocking it, yet every run looked green
+for 46 days. I wrote a [postmortem](https://github.com/Ruchanbas/rg-ilan-botu/blob/main/POSTMORTEM.md)
+and shut the bot down instead of working around the block.
 
-- Studying for **AWS SAA-C03**, then AIF-C01
-- Building a **RAG application** as the anchor project of my cloud portfolio
-- Finishing my Software Engineering degree
+**[income-expense-tracker](https://github.com/Ruchanbas/income-expense-tracker)**
+Console income/expense tracker in Python: OOP, a hand-written linked-list ADT,
+a custom exception hierarchy and 46 automated tests.
+
+## Now
+
+- Java 25 and PostgreSQL fundamentals
+- Next: Spring Boot
 
 ## Stack
 
-`Python` · `AWS (Lambda, S3, DynamoDB, EventBridge, SNS)` · `Terraform` · `GitHub Actions` · `pytest`
+Python · SQL · Java (learning) · FastAPI · pytest · Docker · GitHub Actions · AWS · Terraform · Linux
 
-📍 Ankara, Türkiye
+Ankara, Türkiye · [LinkedIn](https://www.linkedin.com/in/ruchanbas) · ruchanbas.priv@gmail.com
